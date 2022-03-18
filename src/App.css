@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+.card-content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-column-gap: 24px;
+  grid-row-gap: 24px;
+}
+.card-checkout {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-column-gap: 24px;
+  grid-row-gap: 24px;
+}
+
+.cart-icon svg {
+  width: 24px;
+  height: 24px;
+}
+.cart-icon:hover {
+  cursor: pointer;
+}
